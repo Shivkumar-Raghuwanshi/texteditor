@@ -133,7 +133,7 @@ const MyEditor: React.FC = () => {
         </h1>
         <div className="flex justify-center items-center gap-8">
           <Button onClick={saveContent}>Save</Button>
-          <Link href={"/"}>
+          <Link href={"https://github.com/Shivkumar-Raghuwanshi/texteditor"} target="_blank">
             <FaGithub className="w-8 h-10" />
           </Link>
         </div>
@@ -144,10 +144,10 @@ const MyEditor: React.FC = () => {
             <Typewriter
               options={{
                 strings: [
-                  "1. Enter # for heading",
-                  "2. Enter * for bold text",
-                  "3. Enter ** for red text",
-                  "4. Enter *** for underline",
+                  `1. Enter "#" and "space" for heading `,
+                  `2. Enter "*" and for bold text`,
+                  `3. Enter "**" and "space" for red text`,
+                  `4. Enter "***" and "space" for underline`,
                 ],
                 autoStart: true,
                 loop: true,
