@@ -145,7 +145,7 @@ const MyEditor: React.FC = () => {
               options={{
                 strings: [
                   `1. Enter "#" and "space" for heading `,
-                  `2. Enter "*" and for bold text`,
+                  `2. Enter "*" and "space" for bold text`,
                   `3. Enter "**" and "space" for red text`,
                   `4. Enter "***" and "space" for underline`,
                 ],
